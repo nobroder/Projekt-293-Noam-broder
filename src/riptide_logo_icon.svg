@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="minGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Abgerundetes Quadrat als App-Icon Hintergrund -->
+  <rect x="10" y="10" width="180" height="180" rx="40" ry="40" fill="url(#minGrad)"/>
+
+  <!-- Stilisierte Welle / R -->
+  <g transform="translate(40, 50)" stroke="#ffffff" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- obere Welle -->
+    <path d="M 5 30
+             C 25 5, 45 5, 60 30
+             C 75 55, 95 55, 115 30"/>
+    <!-- mittlere Welle -->
+    <path d="M 5 60
+             C 25 35, 45 35, 60 60
+             C 75 85, 95 85, 115 60"/>
+    <!-- untere Welle -->
+    <path d="M 5 90
+             C 25 65, 45 65, 60 90
+             C 75 115, 95 115, 115 90"/>
+  </g>
+</svg>
